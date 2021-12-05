@@ -1,0 +1,652 @@
+/*/*most of the mobile phone css*/
+@media (min-width: 320px) and (max-width: 480px){
+	/*css start*/
+	.header .navbar-light .navbar-toggler {
+	    color: #fff;
+	    border-color: #fff;
+	}
+	.header .navbar-nav{
+		margin: 30px 0px 0px;
+	}
+	.header .navbar-toggler:focus{
+		box-shadow: 0 0 0 0rem;
+	}
+	.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") left bottom no-repeat;
+	}
+	.header .navbar-light .navbar-nav .nav-link.active{
+		background: url("../images/line.png") left bottom no-repeat;
+	}
+	.header .navbar-light .navbar-nav .nav-link{
+		margin: 10px 0px 0px 15px;
+	}
+	.banner{
+		padding: 30px 0px;
+	}
+	.banner .inner-banner h1{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.banner .inner-banner p{
+		font-size: 8px;
+	}
+	.inner-button{
+		padding: 25px 0px 0px;
+	}
+	.inner-button .btn-primary{
+		padding: 10px 10px;
+		font-size: 11px;
+	}
+	.inner-button .btn-secondary{
+		padding: 10px 10px;
+		font-size: 11px;
+		margin: 0px 0px 0px 15px;
+	}
+	.features{
+		padding: 30px 0px 0px;
+	}
+	.title{
+		padding: 0px 0px 30px;
+	}
+	.title h2{
+		font-size: 27px;
+		line-height: 37px;
+	}
+	.inner-feature .icon{
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		margin: 0px auto 10px;
+	}
+	.inner-feature h4{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.inner-feature p{
+		font-size: 10px;
+    	line-height: 20px;
+	}
+	.about-sort{
+		padding: 30px 0px 0px;
+	}
+	.about-sort .title{
+		text-align: center;
+	}
+	.about-sort .title h2{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.about-sort-text{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.about-sort-list li{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.about-long{
+		padding: 0px 0px;
+	}
+	.about-long .title{
+		text-align: center;
+	}
+	.about-long .title h2{
+	    font-size: 27px;
+	}
+	.about-long .title img{
+		width: auto;
+	}
+	.about-long-text{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.about-long img{
+		width: 100%;
+	}
+	.testimonial{
+		padding: 30px 0px 0px;
+	}
+	.testimonial .title h6{
+		margin: 0px;
+	}
+	.testimonial .title h2{
+		margin: 0px;
+	}
+	.testimonial .owl-carousel .item h4{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.testimonial .owl-carousel .item .client-image{
+		width: 50px;
+		height: 50px;
+		margin: 0px 0px 0px 4px;
+	}
+	.testimonial .owl-carousel .item p{
+		font-size: 10px;
+		line-height: 20px;
+		margin: 0px;
+
+	}
+	.testimonial .owl-carousel .item h6{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.testimonial .owl-theme .owl-nav.disabled + .owl-dots{
+		margin-top: 70px;
+	}
+	.download h3{
+    	font-size: 15px;
+	}
+	.download .inner-button{
+		text-align: center;
+		padding: 14px 0px 0px;
+	}
+
+	.download .inner-button .btn-secondary{
+		padding: 10px 13px;
+		font-size: 11px;
+	}
+	.download .inner-button .btn-primary{
+		padding: 10px 10px;
+		font-size: 11px;
+	}
+	.pricing-plan{
+		padding: 30px 0px;
+	}
+	.price-header h3{
+    	font-size: 18px;
+	}
+	.price h1{
+		font-size: 40px;
+	}
+	.price h1 sup{
+		font-size: 18px;
+		top: -1em;
+	}
+	.inner-price p{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.inner-price .btn-primary{
+		font-size: 10px;
+	}
+	.contact{
+		padding: 30px 0px 0px;
+	}
+	.contact .contact-image{
+		width: 16px;
+		margin-bottom: 20px;
+	}
+	.contact .inner-contact h6{
+		font-size: 12px;
+		line-height: 22px;
+		margin-bottom: 16px;
+	}
+	.main-form{
+	    width: 100%;
+	    padding: 40px 54px 12px;
+	}
+	.main-form .form-control{
+		padding: 8px;
+		font-size: 7px;
+	}
+	.main-form .btn-primary{
+		padding: 9px 14px;
+		font-size: 9px;
+	}
+	.footer{
+		padding: 18px 0px;
+	}
+	.footer p{
+		font-size: 10px;
+	}
+
+/*css end*/
+}
+	
+
+/*/*most of the mobile low resulation tablet, mobile phone css*/
+@media (min-width: 481px) and (max-width: 767px){
+
+		/*css start*/
+.header .navbar-light .navbar-toggler {
+	    color: #fff;
+	    border-color: #fff;
+	}
+	.header .navbar-nav{
+		margin: 30px 0px 0px;
+	}
+	.header .navbar-toggler:focus{
+		box-shadow: 0 0 0 0rem;
+	}
+	.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") left bottom no-repeat;
+	}
+	.header .navbar-light .navbar-nav .nav-link.active{
+		background: url("../images/line.png") left bottom no-repeat;
+	}
+	.header .navbar-light .navbar-nav .nav-link{
+		margin: 10px 0px 0px 15px;
+	}
+		.banner{
+		padding: 30px 0px;
+	}
+	.banner .inner-banner h1{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.banner .inner-banner p{
+		font-size: 8px;
+	}
+	.inner-button{
+		padding: 25px 0px 0px;
+	}
+	.inner-button .btn-primary{
+		padding: 10px 10px;
+		font-size: 11px;
+	}
+	.inner-button .btn-secondary{
+		padding: 10px 10px;
+		font-size: 11px;
+		margin: 0px 0px 0px 20px;
+	}
+	.features{
+		padding: 30px 0px 0px;
+	}
+	.title{
+		padding: 0px 0px 30px;
+	}
+	.title h2{
+		font-size: 27px;
+		line-height: 37px;
+	}
+	.inner-feature .icon{
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		margin: 0px auto 10px;
+	}
+	.inner-feature h4{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.inner-feature p{
+		font-size: 11px;
+    	line-height: 21px;
+	}
+	.about-sort{
+		padding: 30px 0px 0px;
+	}
+	.about-sort .title{
+		text-align: center;
+	}
+	.about-sort .title h2{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.about-sort .img-fluid{
+	    height: 350px;
+	    margin-left: 90px;
+	}
+	.about-sort-text{
+		font-size: 11px;
+		line-height: 21px;
+		text-align: center;
+		width: 100%;
+	}
+	.about-sort-list li{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.about-long{
+		padding: 0px 0px;
+	}
+	.about-long .title{
+		text-align: center;
+	}
+	.about-long .title h2{
+	    font-size: 27px;
+	}
+	.about-long .title img{
+		width: auto;
+	}
+	.about-long-text{
+		font-size: 10px;
+		line-height: 20px;
+		text-align: center;
+	}
+	.about-long img{
+		width: 100%;
+	}
+	.testimonial{
+		padding: 30px 0px 0px;
+	}
+	.testimonial .title h6{
+		margin: 0px;
+	}
+	.testimonial .title h2{
+		margin: 0px;
+	}
+	.testimonial .owl-carousel .item h4{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.testimonial .owl-carousel .item .client-image{
+		width: 50px;
+		height: 50px;
+		margin: 0px 0px 0px 30px;
+	}
+	.testimonial .owl-carousel .item p{
+		font-size: 10px;
+		line-height: 20px;
+		margin: 0px;
+
+	}
+	.testimonial .owl-carousel .item h6{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.testimonial .owl-theme .owl-nav.disabled + .owl-dots{
+		margin-top: 70px;
+	}
+	.download h3{
+    	font-size: 15px;
+    	text-align: center;
+	}
+	.download .inner-button{
+		text-align: center;
+		padding: 14px 0px 0px;
+	}
+
+	.download .inner-button .btn-secondary{
+		padding: 10px 13px;
+		font-size: 11px;
+	}
+	.download .inner-button .btn-primary{
+		padding: 10px 10px;
+		font-size: 11px;
+	}
+	.pricing-plan{
+		padding: 30px 0px;
+	}
+	.price-header h3{
+    	font-size: 18px;
+	}
+	.price h1{
+		font-size: 40px;
+	}
+	.price h1 sup{
+		font-size: 18px;
+		top: -1em;
+	}
+	.price p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.inner-price p{
+		font-size: 11px;
+		line-height: 21px;
+	}
+	.inner-price .btn-primary{
+		font-size: 10px;
+	}
+	.contact{
+		padding: 30px 0px 0px;
+	}
+	.contact .contact-image{
+		width: 16px;
+		margin-bottom: 20px;
+	}
+	.contact .inner-contact h6{
+		font-size: 12px;
+		line-height: 22px;
+		margin-bottom: 16px;
+	}
+	.main-form{
+		padding: 80px 77px 30px;
+	}
+	.main-form .form-control{
+		padding: 11px;
+		font-size: 9px;
+	}
+	.main-form .btn-primary{
+		padding: 9px 14px;
+		font-size: 9px;
+	}
+	.footer{
+		padding: 18px 0px;
+	}
+	.footer p{
+		font-size: 12px;
+	}
+
+	
+
+/*css end*/
+}
+
+
+/*/*most of the ipad, tablet, notebook css*/
+@media (min-width: 768px) and (max-width: 1024px){
+		/*css start*/
+
+.header .navbar-light .navbar-toggler {
+	    color: #fff;
+	    border-color: #fff;
+	}
+	.header .navbar-nav{
+		margin: 30px 0px 0px;
+	}
+	.header .navbar-toggler:focus{
+		box-shadow: 0 0 0 0rem;
+	}
+	.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") left bottom no-repeat;
+	}
+	.header .navbar-light .navbar-nav .nav-link.active{
+		background: url("../images/line.png") left bottom no-repeat;
+	}
+	.header .navbar-light .navbar-nav .nav-link{
+		margin: 10px 0px 0px 15px;
+	}
+		.banner{
+		padding: 30px 0px;
+	}
+	.banner .inner-banner h1{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.banner .inner-banner p{
+		font-size: 8px;
+	}
+	.inner-button{
+		padding: 25px 0px 0px;
+	}
+	.inner-button .btn-primary{
+		padding: 10px 10px;
+		font-size: 11px;
+	}
+	.inner-button .btn-secondary{
+		padding: 10px 10px;
+		font-size: 11px;
+		margin: 0px 0px 0px 16px;
+	}
+	.features{
+		padding: 30px 0px 0px;
+	}
+	.title{
+		padding: 0px 0px 30px;
+	}
+	.title h2{
+		font-size: 27px;
+		line-height: 37px;
+	}
+	.inner-feature .icon{
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		margin: 0px auto 10px;
+	}
+	.inner-feature h4{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.inner-feature p{
+		font-size: 12px;
+    	line-height: 22px;
+	}
+	.about-sort{
+		padding: 30px 0px 0px;
+	}
+	.about-sort .title{
+		text-align: center;
+	}
+	.about-sort .title h2{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.about-sort .img-fluid{
+	    height: 500px;
+	    margin-left: 145px;
+	}
+	.about-sort-text{
+		font-size: 12px;
+		line-height: 22px;
+		text-align: center;
+		width: 100%;
+	}
+	.about-sort-list li{
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.about-long{
+		padding: 0px 0px;
+	}
+	.about-long .title{
+		text-align: center;
+	}
+	.about-long .title h2{
+	    font-size: 27px;
+	}
+	.about-long .title img{
+		width: auto;
+	}
+	.about-long-text{
+		font-size: 12px;
+		line-height: 22px;
+		text-align: center;
+	}
+	.about-long img{
+		width: 100%;
+	}
+	.testimonial{
+		padding: 30px 0px 0px;
+	}
+	.testimonial .title h6{
+		margin: 0px;
+	}
+	.testimonial .title h2{
+		margin: 0px;
+	}
+	.testimonial .owl-carousel .item h4{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.testimonial .owl-carousel .item .client-image{
+		width: 50px;
+		height: 50px;
+		margin: 0px 0px 0px 4px;
+	}
+	.testimonial .owl-carousel .item p{
+		font-size: 10px;
+		line-height: 20px;
+		margin: 0px;
+
+	}
+	.testimonial .owl-carousel .item h6{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.testimonial .owl-theme .owl-nav.disabled + .owl-dots{
+		margin-top: 70px;
+	}
+	.download h3{
+    	font-size: 22px;
+    	text-align: center;
+	}
+	.download .inner-button{
+		text-align: center;
+		padding: 14px 0px 0px;
+	}
+
+	.download .inner-button .btn-secondary{
+		padding: 10px 13px;
+		font-size: 11px;
+	}
+	.download .inner-button .btn-primary{
+		padding: 10px 10px;
+		font-size: 11px;
+	}
+	.pricing-plan{
+		padding: 30px 0px;
+	}
+	.price-header h3{
+    	font-size: 18px;
+	}
+	.price h1{
+		font-size: 40px;
+	}
+	.price h1 sup{
+		font-size: 18px;
+		top: -1em;
+	}
+	.price p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.inner-price p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.inner-price .btn-primary{
+		font-size: 10px;
+	}
+	.contact{
+		padding: 30px 0px 0px;
+	}
+	.contact .contact-image{
+		width: 16px;
+		margin-bottom: 20px;
+	}
+	.contact .inner-contact h6{
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 18px;
+	}
+	.main-form {
+	    padding: 80px 90px 30px;
+	}
+	.main-form .form-control{
+	    padding: 6px;
+	    font-size: 10px;
+	}
+	.main-form .form-control{
+		padding: 6px;
+		font-size: 10px;
+	}
+	.main-form .btn-primary{
+		padding: 9px 14px;
+		font-size: 9px;
+	}
+	.footer{
+		padding: 18px 0px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+
+	
+
+/*css end*/
+}
